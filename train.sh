@@ -1,10 +1,10 @@
 #!/bin/bash
 
 
-DATASET='MovieLens1M'
-MODEL='MLP'
-EPOCHS=500
-LOSS='BPR'
+DATASET='MovieLens1M' # Choose from MovieLens1M, Gowalla, Yelp2018, AmazonBook 
+MODEL='MLP' # Choose from MLP, LGConv 
+EPOCHS=500 
+LOSS='BPR' # Choose from BPR, align, SSM 
 echo $DATASET
 
 BATCH_SIZE=8192
